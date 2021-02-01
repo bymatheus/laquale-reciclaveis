@@ -10,9 +10,13 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.2",
+        "@popperjs/core": "^2.5.4",
         "axios": "^0.21",
+        "bootstrap": "^5.0.0-beta1",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
-    }
+    },
+    "dependencies": {}
 }
