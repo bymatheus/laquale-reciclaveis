@@ -1,22 +1,36 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "npm run development",
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "prod": "npm run production",
-        "production": "mix --production"
-    },
-    "devDependencies": {
-        "@fortawesome/fontawesome-free": "^5.15.2",
-        "@popperjs/core": "^2.5.4",
-        "axios": "^0.21",
-        "bootstrap": "^5.0.0-beta1",
-        "laravel-mix": "^6.0.6",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14"
-    },
-    "dependencies": {}
+  "name": "laquale-reciclaveis",
+  "version": "1.0.0",
+  "description": "Site institucional da Laquale Reciclaveis.",
+  "author": "Matheus Camargo Xavier <oi@matheuscamargo.co>",
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.5.4",
+    "axios": "^0.21",
+    "bootstrap": "^5.0.0-beta1",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.1.14"
+  },
+  "dependencies": {}
 }
